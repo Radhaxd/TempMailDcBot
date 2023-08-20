@@ -36,8 +36,8 @@ app = Client(
 
 #********************************************************************************
 start_text = """
-Hello! {}, 
-I can create **temp emails** for you. Send /new to **create new mail** !
+Hᴇʟʟᴏ! {}, 
+I ᴄᴀɴ ᴄʀᴇᴀᴛᴇ **ᴛᴇᴍᴘ ᴇᴍᴀɪʟs** ғᴏʀ ʏᴏᴜ. ꜱᴇɴᴅ /new ᴛᴏ **ᴄʀᴇᴀᴛᴇ ɴᴇᴡ ᴍᴀɪʟ** !
 
 **Advantages**
    • None Blacklisted Domains(Fresh Domains).
@@ -294,23 +294,6 @@ async def broadcast_message(_, message):
     await m.edit(f"""
 Broadcast Completed:.""")    
 
-@app.on_message(filters.command("ads"))
-async def ads_message(_, message):
-    await message.reply_text(
-"""     ♨️ Advertise On Telegram 🚀
-
-Want to promote anything ? 
-
-MusicplayerdcBot & MediaautoSearchbot is here with your basic needs. We work in around 400 chats with thousand of userbase. One promotional broadcast reaches to thousands of peoples. 
-
-Want to promote your online business ? Want to get people engagement? We are here!
-
-Promote whatever you want at lowest and affordable prices.
-
-https://t.me/Groupdcs 
-
-🔥Your broadcast will reach group also so minimum 50k users see your message.
-""")
 
 print("I'm Alive Now!")
 app.run()
