@@ -187,7 +187,7 @@ async def mail_box(_, query : CallbackQuery):
                     InlineKeyboardButton("🔗 Open Link", url=link)
                 ],
                 [
-                    InlineKeyboardButton("Back", f"mailbox |{email}|{domain}")
+                    InlineKeyboardButton("↪️ ʙᴀᴄᴋ", f"mailbox |{email}|{domain}")
                 ]
             ]
         )
